@@ -1,0 +1,70 @@
+* {
+	-webkit-transition: 500ms;
+	font-family: "Segoe UI Light";
+	cursor: default;
+	-webkit-user-select: none;
+}
+body {
+	margin: 0;
+}
+#gameplan {
+	width: 400px;
+	// margin: 3% auto;
+	display: inline-block;
+	padding: 0;
+	line-height: 74%;
+	height: 400px;
+	overflow: hidden;
+	border: thin solid #DBDBDB;
+	box-shadow: 0px 18px 10px -14px #A2A2A2;
+	// box-shadow: 0px 0px 40px #A2A2A2;
+}
+#gameplan img, #thekhaali {
+	position: relative;
+	width: 100px;
+	height: 100px;
+	display: inline-block;
+	background-color: orange;
+}
+
+.c {
+	text-align: center;
+}
+
+.header{
+	margin: 0;
+	font-family: "Segoe Ui Light";
+	font-weight: 100;
+	border: thin solid lightgrey;
+	padding: 0.3em 0;
+	width: 900px;
+	margin: 0 auto;
+	border-width: 0 thin thin thin;
+	border-radius: 0 0 7px 7px;
+	box-shadow: 1px 11px 15px -10px #ADADAE;
+}
+
+.blackTrans {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0, 0, 0, .9);
+	text-align: center;
+	color: white;
+	font-weight: bold;
+	padding-top: 12%;
+}
+
+.o0{opacity: 0;}
+.l{text-align: left;}
+
+#attempts {
+	font-size: 30px;
+}
+
+#preview {
+	width: 400px;
+	height: 400px;
+}
